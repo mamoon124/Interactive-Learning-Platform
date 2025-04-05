@@ -1,0 +1,19 @@
+/* Hero Section */
+.hero-section {
+    background: url("https://source.unsplash.com/1600x500/?learning,technology") center/cover no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Cards */
+  .card {
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  

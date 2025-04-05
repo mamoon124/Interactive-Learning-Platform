@@ -1,0 +1,15 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .course-video {
+    width: 10%;  /* ✅ Adjust the size (change this to 50% or 60% if needed) */
+    max-width: 800px; /* ✅ Max width to keep it from becoming too large */
+    height: auto;
+    border-radius: 10px; /* ✅ Rounded corners for a better UI */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ✅ Adds a slight shadow effect */
+  }
+  
